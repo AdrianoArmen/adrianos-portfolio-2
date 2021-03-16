@@ -1,2 +1,2 @@
 # adrianos_portfolio
-Adriano Armendaris Professional POrtfolio
+Adriano Armendaris Professional Portfolio
