@@ -472,7 +472,7 @@ nav .menu-btn, .menu-icon {
         align-items: center;
         margin: 0px;
         padding: 25px;
-        border: 1px solid rgba(38, 38, 38, 0.03);
+        border: 1px solid rgba(231, 228, 228, 0.788);
     }
     nav .menu-icon {
         cursor: pointer;
@@ -482,7 +482,7 @@ nav .menu-btn, .menu-icon {
         user-select: none;
     }
     nav .menu-icon .nav-icon {
-        background-color: #333333;
+        background-color: #f5f5f5;
         display: block;
         height: 2px;
         position: relative;
@@ -490,7 +490,7 @@ nav .menu-btn, .menu-icon {
         width: 18px;
     }
     nav .menu-icon .nav-icon:before, nav .menu-icon .nav-icon:after {
-        background: #333;
+        background: rgb(221, 216, 216);
         content: '';
         display: block;
         height: 100%;
