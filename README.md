@@ -1,2 +1,32 @@
-# adrianos_portfolio
-Adriano Armendaris Professional Portfolio
+# adrianos-portfolio
+Homework 2 - Professional Portfolio
+
+HTML Coding / CSS Styling / Responsive Web Design
+
+## HOMEWORK LINKS
+
+* GitHub Repository [GitHub repository link](https://github.com/AdrianoArmen/adrianos_portfolio) 
+
+* Website Deployed [Website Deploy link](https://adrianoarmen.github.io/adrianos-code-refactor/) 
+
+## Description
+
+This sample website was designed to showcase my advanced CSS skills along with structural knowledge on how to set up a single-page application. This project also references my problem-solving skills using online resources to investigate and deploy real-time design ideas into my website. By using only HTML5 and CSS3 I have created a simple professional portfolio in which I will display all my upcoming projects. I procured a bold style different from the mockup to enhance its unique appearance. I was able to investigate a number of styling techniques to make the navigation bar adapt to the viewer screen size. I used media queries to make this project a responsive web design example.
+
+## Screenshots
+
+* Desktop Screen View:
+
+![Portfolio website displayed on a desktop screen](./assets\images\pcws.png)
+
+* Tablet Screen View:
+
+![Portfolio website displayed on a tablet screen](./assets\images\tabletws.png)
+
+* Mobile Screen View:
+
+![Portfolio website displayed on a mobile screen](./assets\images\mobilews.png)
+
+### Credits
+
+Done by Adriano Armendaris
