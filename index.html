@@ -11,41 +11,215 @@
     <link rel="shortcut icon" type="image/jpg" href="./assets/images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- main -->
-    <main id="main">
-        <!-- navigation -->
+
+    <!-- main section -->
+    <section id="main">
         <nav>
-            <!-- logo -->
+            <!--logo--------------->
             <a href="#" class="logo">
-                <img src="./assets/images/logo.png" alt="adriano code logo">
+                <img src="./assets/images/logo.png" alt="adriano coding logo" />
             </a>
-            <!-- menu -->
+            <!--menu-button-------------->
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+            <!--menu-------------->
             <ul class="menu">
-                <li> <a href="#">About Me</a></li>
-                <li> <a href="#">Work</a></li>
-                <li> <a href="#">Contact</a></li>
+                <li><a href="#main">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#recent">Recent</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <!--linkedin profile link--------->
+            <a href="https://www.linkedin.com/in/adriano-armendaris" class="linkedin">LinkedIn</a>
         </nav>
-        <!--content----------------->
-        <div class="content">
-            <!--model--------------->
-            <div class="profilepic">
-                <img src="./assets/images/profilepic.png" />
+    </section>
+
+    <!--content----------------->
+    <div class="content">
+        <!--profile picture-------------->
+        <div class="profile">
+            <img src="./assets/images/profilepic.png"  alt="adriano profile picture"/>
+        </div>
+        <!--about me-------------->
+        <div class="main-text">
+            <h1>About me</h1>
+            <p>I am currently taking the fullstack web developer Bootcamp at Tecnologico de Monterrey. I
+                am developing different skills needed to become a competitive level programmer. I am
+                also learning about the latest trends in application development. I am on my way to
+                understand the technologies needed to be proficient in both Frontend and Backend
+                conding.. I've created this professional portfolio to showcase my work. This
+                responsive sample website was created using only HTML and CSS.
+            </p>
+            <!--email me button------->
+            <a href="mailto: adriano.armendaris@gmail.com" class="portfolio-btn">Email me</a>
+        </div>
+    </div>
+
+    <!--skills------------->
+    <section id="skills">
+        <!--text--------->
+        <div class="skill-text">
+            <!--heading-->
+            <div class="skill-heading">
+                <span>My Skills</span>
+                <h2>Programming</h2>
             </div>
-            <!--text-------------->
-            <div class="main-text">
-                <h1>Hello World! My name is Adriano</h1>
-                <p>I am a Fullstack Developer. I've created this professional portfolio to showcase my work. This responsive sample website was created using only HTML and CSS.</p>
-                <!--btn------->
-                <a href="#" class="portfolio-btn">LinkedIn</a>
+            <!--skill-box-container----------->
+            <div class="s-box-container">
+                <!--skill-box-------------->
+                <div class="skill-box">
+                    <!--icon------->
+                    <div class="s-box-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <!--skill-box-text--------->
+                    <div class="s-box-text">
+                        <strong>Hyper Text Markup Language(HTML)</strong>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--skill-box-------------->
+                <div class="skill-box">
+                    <!--icon------->
+                    <div class="s-box-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <!--skill-box-text--------->
+                    <div class="s-box-text">
+                        <strong>Cascading Style Sheets(CSS)</strong>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--skill-box-------------->
+                <div class="skill-box">
+                    <!--icon------->
+                    <div class="s-box-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <!--skill-box-text--------->
+                    <div class="s-box-text">
+                        <strong>JavaScript(Js)</strong>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- skills img--------------->
+        <div class="skill-img">
+            <img src="./assets/images/coding.png" alt="conding picture"/>
+        </div>
+    </section>
+
+    <!--recent-project---------------------------->
+    <section id="recent">
+        <!--heading--------------->
+        <div class="recent-heading">
+            <span>Recent</span>
+            <h3>Responsive Web Design using only HTML5 & CSS3</h3>
+        </div>
+        <!-- recent project img--------------->
+        <div class="recent-img">
+            <img src="./assets/images/recentimg.png" alt="ccs and html website image"/>
+        </div>
+        <!--github repository link----------->
+        <a href="https://github.com/AdrianoArmen/adrianos_portfolio" class="recent-btn">GitHub Repository</a>
+    </section>
+
+    <!--work----------------------------------->
+    <section id="projects">
+        <!--heading------->
+        <div class="projects-heading">
+            <span>Work</span>
+            <h3>Previous Projects</h3>
+        </div>
+        <!--previous projects-container--------------->
+        <div class="p-box-container">
+            <!--box-1----->
+            <div class="projects-box">
+                <!--img-------->
+                <img src="./assets/images/coderefactor.png" alt="code refactor image"/>
+
+                <!--project description------>
+                <p>Code refactoring project - Coding best practices
+                    and Scout Route training that tested my syntax and consolidation knowledge in CSS & HTML. </p>
+                <!--github link--------->
+                <a href="https://github.com/AdrianoArmen/adrianos-code-refactor">GitHub Repo</a>
+            </div>
+            <!--box-2----->
+            <div class="projects-box">
+                <!--img-------->
+                <img src="./assets/images/underconstruction.png" alt="under construction icon"/>
+
+                <!--project description------>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente autem totam nostrum soluta nobis
+                    officia. Fugit architecto vero consequatur dignissimos minima dicta deleniti possimus delectus, nemo
+                    est officiis. Commodi, minus. </p>
+                <!--github link--------->
+                <a href="#">Comming Soon</a>
+            </div>
+            <!--box-3----->
+            <div class="projects-box">
+                <!--img-------->
+                <img src="./assets/images/underconstruction.png" alt="under construction icon"/>
+
+                <!--project description------>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ut, molestias necessitatibus quod
+                    pariatur eaque quisquam culpa iste cum eius quae, perferendis reprehenderit ratione sed, velit alias
+                    sunt porro quasi. </p>
+                <!--github link--------->
+                <a href="#">Comming Soon</a>
             </div>
         </div>
 
+        <!--contact------------------------->
+        <section id="contact">
+            <!--heading---------------->
+            <h3>Contact</h3>
+            <!--img-------->
+            <img src="./assets/images/contact.png" alt="email phone and github contact image"/>
 
-    </main>
+            <!--github website---------------->
+            <div class="contact-github">
+
+                <a href="https://github.com/AdrianoArmen">GitHub</a>
+            </div>
+        </section>
+        <!--footer--------->
+        <footer>
+
+            <p>Copyright 2021 - Made by Adriano</p>
+        </footer>
+
+
+    </section>
+
 </body>
 
 </html>
