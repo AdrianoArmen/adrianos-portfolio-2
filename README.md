@@ -7,7 +7,7 @@ HTML Coding / CSS Styling / Responsive Web Design
 
 * GitHub Repository [GitHub repository link](https://github.com/AdrianoArmen/adrianos_portfolio) 
 
-* Website Deployed [Website Deploy link](https://adrianoarmen.github.io/adrianos-code-refactor/) 
+* Website Deployed [Website Deploy link](https://adrianoarmen.github.io/adrianos_portfolio/) 
 
 ## Description
 
