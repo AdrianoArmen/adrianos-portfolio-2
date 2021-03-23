@@ -17,15 +17,15 @@ This sample website was designed to showcase my advanced CSS skills along with s
 
 * Desktop Screen View:
 
-![Portfolio website displayed on a desktop screen](./assets\images\pcws.png)
+![Portfolio website displayed on a desktop screen](./assets/images/pcws.png)
 
 * Tablet Screen View:
 
-![Portfolio website displayed on a tablet screen](./assets\images\tabletws.png)
+![Portfolio website displayed on a tablet screen](./assets/images/tabletws.png)
 
 * Mobile Screen View:
 
-![Portfolio website displayed on a mobile screen](./assets\images\mobilews.png)
+![Portfolio website displayed on a mobile screen](./assets/images/mobilews.png)
 
 ### Credits
 
