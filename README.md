@@ -7,7 +7,7 @@ HTML Coding / CSS Styling / Responsive Web Design
 
 ## HOMEWORK LINKS
 
-* GitHub Repository [GitHub repository link](https://github.com/AdrianoArmen/adrianos_portfolio-2) 
+* GitHub Repository [GitHub repository link](https://github.com/AdrianoArmen/adrianos-portfolio-2) 
 
 * Website Deployed [Website Deploy link](https://adrianoarmen.github.io/adrianos-portfolio-2/) 
 
