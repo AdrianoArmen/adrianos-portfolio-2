@@ -1,13 +1,15 @@
 # adrianos-portfolio
+![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)
+
 Homework 2 - Professional Portfolio
 
 HTML Coding / CSS Styling / Responsive Web Design
 
 ## HOMEWORK LINKS
 
-* GitHub Repository [GitHub repository link](https://github.com/AdrianoArmen/adrianos_portfolio) 
+* GitHub Repository [GitHub repository link](https://github.com/AdrianoArmen/adrianos_portfolio-2) 
 
-* Website Deployed [Website Deploy link](https://adrianoarmen.github.io/adrianos_portfolio/) 
+* Website Deployed [Website Deploy link](https://adrianoarmen.github.io/adrianos-portfolio-2/) 
 
 ## Description
 
@@ -27,6 +29,10 @@ This sample website was designed to showcase my advanced CSS skills along with s
 
 ![Portfolio website displayed on a mobile screen](./assets/images/mobilews.png)
 
-### Credits
+## License 📄
 
-Done by Adriano Armendaris
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+---
+
+© 2021 Adriano.
